@@ -2,7 +2,7 @@
 %define		orgname		ktouch
 
 Summary:	K Desktop Environment - Program for learning touch typing
-Summary(pl_PL.UTF8):	K Desktop Environment - Program do nauki maszynopisania
+Summary(pl.UTF-8):	K Desktop Environment - Program do nauki maszynopisania
 Name:		kde4-ktouch
 Version:	4.9.1
 Release:	1
