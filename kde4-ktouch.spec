@@ -5,7 +5,7 @@ Summary:	K Desktop Environment - Program for learning touch typing
 Summary(pl.UTF-8):	K Desktop Environment - Program do nauki maszynopisania
 Name:		kde4-ktouch
 Version:	4.10.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Science
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
@@ -65,6 +65,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/*x*/apps/ktouch.png
 %{_iconsdir}/hicolor/scalable/apps/ktouch.svgz
 %{_mandir}/man1/ktouch.1*
+%dir %{_libdir}/kde4/imports/org/kde/ktouch
+%dir %{_libdir}/kde4/imports/org/kde/ktouch/graph
 %{_libdir}/kde4/imports/org/kde/ktouch/graph/BarGraph.qml
 %{_libdir}/kde4/imports/org/kde/ktouch/graph/Label.qml
 %{_libdir}/kde4/imports/org/kde/ktouch/graph/LegendItem.qml
