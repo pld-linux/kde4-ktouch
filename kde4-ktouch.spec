@@ -65,3 +65,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/*x*/apps/ktouch.png
 %{_iconsdir}/hicolor/scalable/apps/ktouch.svgz
 %{_mandir}/man1/ktouch.1*
+%{_libdir}/kde4/imports/org/kde/ktouch/graph/BarGraph.qml
+%{_libdir}/kde4/imports/org/kde/ktouch/graph/Label.qml
+%{_libdir}/kde4/imports/org/kde/ktouch/graph/LegendItem.qml
+%{_libdir}/kde4/imports/org/kde/ktouch/graph/LineGraph.qml
+%{_libdir}/kde4/imports/org/kde/ktouch/graph/LineLabel.qml
+%attr(755,root,root) %{_libdir}/kde4/imports/org/kde/ktouch/graph/libgraphplugin.so
+%{_libdir}/kde4/imports/org/kde/ktouch/graph/qmldir
