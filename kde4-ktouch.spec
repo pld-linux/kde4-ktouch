@@ -4,12 +4,12 @@
 Summary:	K Desktop Environment - Program for learning touch typing
 Summary(pl.UTF-8):	K Desktop Environment - Program do nauki maszynopisania
 Name:		kde4-ktouch
-Version:	4.12.4
+Version:	4.13.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Science
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	c339e11bef8ff9b335393a06c45e6349
+# Source0-md5:	c0a642efccdcaf67309f1d45f5493ce5
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 Obsoletes:	kde4-kdeedu-ktouch < 4.6.99
@@ -65,12 +65,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/*x*/apps/ktouch.png
 %{_iconsdir}/hicolor/scalable/apps/ktouch.svgz
 %{_mandir}/man1/ktouch.1*
-%dir %{_libdir}/kde4/imports/org/kde/ktouch
-%dir %{_libdir}/kde4/imports/org/kde/ktouch/graph
-%{_libdir}/kde4/imports/org/kde/ktouch/graph/BarGraph.qml
-%{_libdir}/kde4/imports/org/kde/ktouch/graph/Label.qml
-%{_libdir}/kde4/imports/org/kde/ktouch/graph/LegendItem.qml
-%{_libdir}/kde4/imports/org/kde/ktouch/graph/LineGraph.qml
-%{_libdir}/kde4/imports/org/kde/ktouch/graph/LineLabel.qml
-%attr(755,root,root) %{_libdir}/kde4/imports/org/kde/ktouch/graph/libgraphplugin.so
-%{_libdir}/kde4/imports/org/kde/ktouch/graph/qmldir
